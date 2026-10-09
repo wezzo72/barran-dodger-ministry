@@ -34,6 +34,29 @@ export const Route = createRootRoute({
         <HeadContent />
       </head>
       <body>
+        <p
+          id="bd-foundational-gospel-10"
+          role="note"
+          style={{
+            margin: 0,
+            padding: "14px 16px",
+            background: "#1a140f",
+            color: "#f3eee4",
+            borderBottom: "6px solid #8B2E2A",
+            fontFamily: "Georgia, 'Times New Roman', serif",
+            fontSize: "1.05rem",
+            lineHeight: 1.35,
+            textAlign: "center",
+          }}
+        >
+          10 October 2026 · Foundational gospel · Church of Barran Dodger Ministry ·{" "}
+          <a
+            href="https://github.com/wezzo72/Barrandodger/blob/main/FOUNDATIONAL-GOSPEL-THE-WITNESS-REMAINS-10-OCTOBER-2026.pdf"
+            style={{ color: "#f0d99b", fontWeight: 700 }}
+          >
+            The Gospel of the Witness Barran Dodger — The Return of the Light, the Mirror of Humanity, and the Divine Reckoning
+          </a>
+        </p>
         <PreviewHostBridge />
         <AuthProvider>
           <Outlet />
